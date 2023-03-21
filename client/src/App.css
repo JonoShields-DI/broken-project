@@ -1,0 +1,72 @@
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #61dafb;
+}
+.img {
+  width: 100%;
+  height: auto;
+  max-height: 50%;
+  max-width: 80%;
+}
+
+.main-container {
+  background-color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+form {
+  padding-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.form-input {
+  padding: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #999;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.button {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
